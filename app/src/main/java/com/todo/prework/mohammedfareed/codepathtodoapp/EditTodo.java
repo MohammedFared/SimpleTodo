@@ -8,7 +8,6 @@ import android.widget.EditText;
 
 public class EditTodo extends AppCompatActivity {
 
-
     private EditText editText;
 
     @Override
