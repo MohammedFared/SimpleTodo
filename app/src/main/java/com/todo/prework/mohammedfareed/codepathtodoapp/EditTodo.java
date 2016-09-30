@@ -27,4 +27,10 @@ public class EditTodo extends AppCompatActivity {
         setResult(RESULT_OK, result);
         finish();
     }
+
+    @Override
+    public void onBackPressed() {
+        setResult(RESULT_CANCELED);
+        super.onBackPressed();
+    }
 }
